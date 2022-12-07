@@ -1,5 +1,7 @@
 ## Information about query
 
+This is a query I wrote recently for my company. This has been edited from its original form for privacy reasons.
+
 ### Objective of Query:
 This query is a scheduled query in BigQuery (also the code is in BigQuery syntax) that runs once a quarter. The objective is to understand the percentage of distinct shoppers that fall into different demographic groups (in this case income ranges) by each vertical. Example: It is useful to know that of all Big_Box shoppers 17% fall into the 15k – 49k range, 24% fall into the 50k – 75k range and so on. This table is pulled into looker dashboard for sales and PR use. The sales team uses this table to talk to clients that have bought into the Demo Breakout package of services. This gives clients insights to see how each vertical differs by demographic breakout and how they (we breakout age, location, family size and more) change over time.
 
