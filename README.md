@@ -10,4 +10,3 @@ Table Descriptions:
 Table Relationships:
 Visits_table -> Demographic_Data is a many to zero relationship (as not all device_ids that we have in the visits table have a matching device_id in the demographic table)
 Chain_Information -> Visits_table is a one to many relationship (as we have all information on a per chain_id level (this is distinct) matching to many instances of that chain_id showing up in the visits table)
-![image](https://user-images.githubusercontent.com/69049693/206306139-616952d4-1795-4456-933c-f1c1071bb629.png)
